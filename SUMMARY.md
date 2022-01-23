@@ -88,16 +88,16 @@ influential features.
 
 I also plotted the Shapley values of the features using SHAP summary plots. The SHAP values can show 
 how much each feature contributes, either positively or negatively, to the target variable. 
-This is like the feature importance plot above but it is able to show the positive or negative 
-relationship for each variable with the target.
+It's very similar to the feature importance plot above but it is able to show the positive or negative 
+relationship each feature has with the target variable.
 ![SHAP summary](SHAP.png)
 
-This plot is made of all the data from the test dataset. 
+This plot is made up of all the data from the test dataset. 
 It demonstrates the following information:
-- Feature importance: Variables are ranked in descending order.
+- Feature importance: Features are ranked in descending order.
 - Impact: The horizontal location shows whether the effect of that feature is associated with a 
-higher(right) or lower(left) prediction.
-- Original value: Color shows whether that feature is high (in red) or low (in blue) for that observation.
+higher(right) or lower(left) predicted value.
+- Original value: Color shows whether the value of the feature is high (in red) or low (in blue) for that observation.
 - Correlation: if high original values (red) of a feature is associated with higher predicted value (located further
 right on the plot) and lower original values (blue) associated with lower predicted value, then that feature 
 is likely positively correlated with the target variable.
