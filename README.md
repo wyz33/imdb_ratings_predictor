@@ -12,9 +12,9 @@ For the actual code used for modeling, please see `imdb_ratings/notebooks/DataEx
 
 - [install pyenv](https://realpython.com/intro-to-pyenv/)
 
-- install python `3.7.2` (minimum) using pyenv: `pyenv install -v 3.7.2`
+- install python `3.7.4` (minimum) using pyenv: `pyenv install -v 3.7.4`
 
-- set directory python to project version using pyenv (`^3.7.2`): `pyenv local 3.7.2`
+- set directory python to project version using pyenv (`^3.7.4`): `pyenv local 3.7.2`
 
 - install poetry
     - `curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python`
